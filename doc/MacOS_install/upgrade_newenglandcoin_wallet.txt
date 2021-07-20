@@ -1,0 +1,15 @@
+For existing old NewEnglandcoin Wallet user
+
+If you are existing NewEnglandcoin user, you can avoid long wallet syncing time by using old data files. You can perform 
+below steps on your old wallet files for the v1.7.0 hard fork upgrade. 
+
+Step 1 - Back up your existing wallet file. 
+         Save the wallet file into somewhere. Use Qt wallet menu "File" -> "Backup Wallet" to do that. 
+
+Step 2 - Open up mac terminal, perform below command to rename your old data folder to new name. 
+
+         mv  ~/Library/'Application Support'/NewEnglandcoin  ~/Library/'Application Support'/Goldencoin
+         cp  goldencoin.conf  ~/Library/'Application Support'/Goldencoin/
+
+Step 3 - Open up Goldencoin QT or CLI wallet, your old GLDC coins should show up in the wallet.
+         

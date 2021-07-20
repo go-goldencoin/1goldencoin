@@ -1,0 +1,32 @@
+GLDC Android 64bit Wallet Upgrade Guide without Putty
+    1. Open Userland App and select Ubuntu
+    2. Log in Ubuntu
+    3. cd  Android_Userland_App/ubuntu/arm64/
+    4. wget https://github.com/ShorelineCrypto/goldencoin/releases/download/v1.7.0.2/goldencoin_v1.7.0.2_u16_arm64.tgz
+    5. tar xvfz goldencoin_v1.7.0.2_u16_arm64.tgz
+    6. rm -rf goldencoin_v1.6.0.2_u16_arm64 (remove previous goldencoin qt folder)
+    7. rm goldencoin_v1.6.0.2_u16_arm64.tgz (remove previous goldencoin tgz file if exist)
+    8. rm goldencoin_v1.7.0.2_u16_arm64.tgz (remove current goldencoin tgz file)
+
+GLDC Android 32bit Wallet Upgrade Guide without Putty
+    1. Open Userland App and select Ubuntu
+    2. Log in Ubuntu
+    3. cd  Android_Userland_App/ubuntu/armhf/
+    4. wget https://github.com/ShorelineCrypto/goldencoin/releases/download/v1.7.0.2/goldencoin_v1.7.0.2_u16_armhf.tgz
+    5. tar xvfz goldencoin_v1.7.0.2_u16_armhf.tgz
+    6. rm -rf goldencoin_v1.6.0.2_u16_armhf (remove previous goldencoin qt folder)
+    7. rm goldencoin_v1.6.0.2_u16_armhf.tgz (remove previous goldencoin tgz file if exist)
+    8. rm goldencoin_v1.7.0.2_u16_armhf.tgz (remove current goldencoin tgz file)
+
+
+
+
+
+
+
+
+
+
+
+
+

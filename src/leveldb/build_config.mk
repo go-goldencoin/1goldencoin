@@ -1,0 +1,13 @@
+SOURCES=table/block_builder.cc table/block.cc table/filter_block.cc table/format.cc table/iterator.cc table/merger.cc table/table_builder.cc table/table.cc table/two_level_iterator.cc util/arena.cc util/bloom.cc util/cache.cc util/coding.cc util/comparator.cc util/crc32c.cc util/env.cc util/env_posix.cc util/env_win.cc util/filter_policy.cc util/hash.cc util/histogram.cc util/logging.cc util/options.cc util/status.cc  port/port_posix.cc
+MEMENV_SOURCES=helpers/memenv/memenv.cc
+CC=gcc
+CXX=g++
+PLATFORM=OS_LINUX
+PLATFORM_LDFLAGS=-pthread
+PLATFORM_LIBS=
+PLATFORM_CCFLAGS= -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX
+PLATFORM_CXXFLAGS= -fno-builtin-memcmp -pthread -DOS_LINUX -DLEVELDB_PLATFORM_POSIX
+PLATFORM_SHARED_CFLAGS=-fPIC
+PLATFORM_SHARED_EXT=so
+PLATFORM_SHARED_LDFLAGS=-shared -Wl,-soname -Wl,
+PLATFORM_SHARED_VERSIONED=true
